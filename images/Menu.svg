@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="325" height="325" viewBox="0 0 650 650">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #f7d0d0;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="41" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="7.348"/>
+      <feFlood result="flood" flood-opacity="0.6"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-1">
+    <rect id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-2" x="17" y="481" width="615" height="100" rx="50" ry="50"/>
+    <rect id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-2" x="17" y="253" width="615" height="100" rx="50" ry="50"/>
+    <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-2" x="17" y="25" width="615" height="100" rx="50" ry="50"/>
+  </g>
+</svg>
