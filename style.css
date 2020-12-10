@@ -25,14 +25,6 @@ a:visited {
     display: none;
 }
 
-.showClass {
-    display: block;
-}
-
-.showClassFlex {
-    display: flex;
-}
-
 .positionFixed {
     position: fixed;
 }
@@ -190,7 +182,6 @@ a:visited {
 .earringImgGrid {
     width: 270px;
     height: 360px;
-    /*    object-fit: cover;*/
     background-color: grey;
 }
 
@@ -235,16 +226,16 @@ a.productLinkGrid:hover {
 
 
 /*product pages*/
-.navCrumbs{
+.navCrumbs {
     margin-left: 25px;
 }
 
-.productTitle{
+.productTitle {
     font-size: 25px;
     margin-left: 25px;
 }
 
-.productAll{
+.productAll {
     display: flex;
 }
 
@@ -256,14 +247,14 @@ a.productLinkGrid:hover {
     background-color: grey;
 }
 
-.productInfoAll{
+.productInfoAll {
     display: flex;
     flex-direction: column;
     width: 800px;
     margin-left: 30px;
 }
 
-.productCostAll > p{
+.productCostAll > p {
     font-size: 25px;
     margin-top: 0px;
 }
@@ -289,4 +280,69 @@ a.productLinkGrid:hover {
     margin-top: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: pink;
+    }
 
+    /*footer*/
+    .footerInsta {
+        top: 115px;
+    }
+
+    /*home page*/
+    .homeHeaderImage {
+        width: 100%;
+        object-position: 0px -250px;
+    }
+
+    .homeCollectionsAll {
+        font-size: 20px;
+    }
+
+    .homeCollection1Image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .homeCollection2Image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .homeInsta {
+        font-size: 20px;
+    }
+
+    .brackets {
+        font-size: 45px;
+    }
+
+    /*earrings page*/
+    .earringImgGrid {
+        width: 180px;
+        height: 240px;
+    }
+
+    .earringImgEarrings {
+        width: 180px;
+        height: 240px;
+    }
+
+    .earringGridInfo {
+        top: -110px;
+    }
+
+    .earringGridInfo > h4 {
+        font-size: 18px;
+    }
+    
+/*    product page*/
+.productInfoAll {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-left: 30px;
+}
+    
+}

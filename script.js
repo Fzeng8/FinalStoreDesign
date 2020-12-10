@@ -81,7 +81,7 @@ const app = {
     },
 
     fillProductPage0: function () {
-        app.productImg0 += "<img src='" + app.APIData[0].data[0].attributes.primary_image_url + "' class='earringImgEarrings' alt='image of " + app.APIData[0].data[0].attributes.name + "'>"
+        app.productImg0 += "<img src='" + app.APIData[0].data[0].attributes.primary_image_url + "' class='productImgAll' alt='image of " + app.APIData[0].data[0].attributes.name + "'>"
         
         app.productCost0 += "<p>$"+ app.APIData[0].data[0].attributes.default_price + "0</p>"
         
@@ -93,7 +93,7 @@ const app = {
     },
     
     fillProductPage1: function () {
-        app.productImg1 += "<img src='" + app.APIData[0].data[1].attributes.primary_image_url + "' class='earringImgEarrings' alt='image of " + app.APIData[0].data[1].attributes.name + "'>"
+        app.productImg1 += "<img src='" + app.APIData[0].data[1].attributes.primary_image_url + "' class='productImgAll' alt='image of " + app.APIData[0].data[1].attributes.name + "'>"
         
         app.productCost1 += "<p>$"+ app.APIData[0].data[1].attributes.default_price + "0</p>"
         
@@ -105,7 +105,7 @@ const app = {
     },
     
     fillProductPage2: function () {
-        app.productImg2 += "<img src='" + app.APIData[0].data[2].attributes.primary_image_url + "' class='earringImgEarrings' alt='image of " + app.APIData[0].data[2].attributes.name + "'>"
+        app.productImg2 += "<img src='" + app.APIData[0].data[2].attributes.primary_image_url + "' class='productImgAll' alt='image of " + app.APIData[0].data[2].attributes.name + "'>"
         
         app.productCost2 += "<p>$"+ app.APIData[0].data[2].attributes.default_price + "0</p>"
         
@@ -117,7 +117,7 @@ const app = {
     },
     
     fillProductPage3: function () {
-        app.productImg3 += "<img src='" + app.APIData[0].data[3].attributes.primary_image_url + "' class='earringImgEarrings' alt='image of " + app.APIData[0].data[3].attributes.name + "'>"
+        app.productImg3 += "<img src='" + app.APIData[0].data[3].attributes.primary_image_url + "' class='productImgAll' alt='image of " + app.APIData[0].data[3].attributes.name + "'>"
         
         app.productCost3 += "<p>$"+ app.APIData[0].data[3].attributes.default_price + "0</p>"
         
@@ -129,7 +129,7 @@ const app = {
     },
     
     fillProductPage4: function () {
-        app.productImg4 += "<img src='" + app.APIData[0].data[4].attributes.primary_image_url + "' class='earringImgEarrings' alt='image of " + app.APIData[0].data[4].attributes.name + "'>"
+        app.productImg4 += "<img src='" + app.APIData[0].data[4].attributes.primary_image_url + "' class='productImgAll' alt='image of " + app.APIData[0].data[4].attributes.name + "'>"
         
         app.productCost4 += "<p>$"+ app.APIData[0].data[4].attributes.default_price + "0</p>"
         
