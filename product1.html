@@ -14,8 +14,11 @@
     <nav>
         <div class="navIcons">
             <img src="images/Menu.svg" class="navMenu" alt="navigation menu icon for getting to other pages">
-            <a href="index.html"><img src="images/logo.png" class="navlogo" alt="the logo, a cherry, could be clicked on to go back to the home page"></a>
-            <img src="images/cart.png" class="navCart" alt="the shopping cart icon to view your cart">
+            <a href="index.html"><img src="images/logo.png" class="navLogo" alt="the logo, a cherry, could be clicked on to go back to the home page"></a>
+            
+            <div class="navCartAll">
+                <img src="images/cart.png" class="navCart" alt="the shopping cart icon to view your cart">
+            </div>
         </div>
 
         <div class="hamMenu hideClass">
@@ -42,7 +45,7 @@
         <div class="productInfoAll">
             <div class="product400">
                 <div class="productCost1 productCostAll"></div>
-                <button id="productAddCart">Add to Cart</button>
+                <button class="productAddCart">Add to Cart</button>
             </div>
 
             <div class="productDescription1 productDescriptionAll">
@@ -64,7 +67,6 @@
         (function() {
             app.initialize();
         })();
-
     </script>
 </body>
 

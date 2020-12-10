@@ -261,7 +261,7 @@ a.productLinkGrid:hover {
     margin-top: 0px;
 }
 
-#productAddCart {
+.productAddCart {
     background-color: #F7D0D0;
     border: solid 2px;
     color: #302F83;
